@@ -4,29 +4,12 @@ using namespace std;
 
 int main()
 {
-#pragma region 완전 탐색
-	// 가능한 모든 경우의 수를 탐색하면서
-	// 결과를 찾아내는 알고리즘입니다.
-
-	int password[] = { 7, 1, 2 };
-
-	for (int i = 0; i < 10; i++)
-	{
-		for (int j = 0; j < 10; j++)
-		{
-			for (int k = 0; k < 10; k++)
-			{
-				if (password[0] == i && password[1] == j && password[2] == k)
-				{
-					cout << "Password Release : " << i << " " << j << " " << k << endl;
-
-					break;
-				}
-			}
-		}
-	}
+#pragma region 계수 정렬
+	// 데이터의 값을 비교하지 않고 각  원소에 데이터가
+	// 몇 개 있는 지 개수를 세어 저장한 다음 정렬하는 알고리즘 입니다.
 
 #pragma endregion
+
 
 	return 0;
 }
