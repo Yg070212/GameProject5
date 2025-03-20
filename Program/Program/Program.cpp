@@ -1,12 +1,46 @@
 ﻿#include <iostream>
 
+#define SIZE 8
+
 using namespace std;
+
+void binary_search(int list[], int key)
+{
+	int left = 0;
+	int right = SIZE - 1;
+
+	while (left <= right)
+	{
+		int pivot = (left + right) / 2;
+
+		if (list[pivot] == key)
+		{
+			cout << "Key Found : " << list[pivot] << endl;
+
+			return;
+		}
+		else if (list[pivot] > key)
+		{
+			right = pivot - 1;
+		}
+		else
+		{
+			left = pivot + 1;
+		}
+	}
+
+	cout << "Not Key Found" << endl;
+}
 
 int main()
 {
-#pragma region 계수 정렬
-	// 데이터의 값을 비교하지 않고 각  원소에 데이터가
-	// 몇 개 있는 지 개수를 세어 저장한 다음 정렬하는 알고리즘 입니다.
+#pragma region 이진 탐색
+	// 탐색 범위를 반으로 나누어 찾는 값을 포함하는 범위를
+	// 좁혀나가는 방식으로 동작하는 알고리즘입니다.
+
+	int list[] = { 5, 6, 11, 13, 27, 66, 66, 99 };
+
+	binary_search(list, 100);
 
 #pragma endregion
 
