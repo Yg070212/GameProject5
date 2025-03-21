@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class8th (Count Sort)", "Cl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class9th (Divide amd Conquer)", "Class9th (Divide amd Conquer)\Class9th (Divide amd Conquer).vcxproj", "{A414EB1E-31B8-469C-A04F-ECCAB382E255}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (Binary Search)", "Class10th (Binary Search)\Class10th (Binary Search).vcxproj", "{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{A414EB1E-31B8-469C-A04F-ECCAB382E255}.Release|x64.Build.0 = Release|x64
 		{A414EB1E-31B8-469C-A04F-ECCAB382E255}.Release|x86.ActiveCfg = Release|Win32
 		{A414EB1E-31B8-469C-A04F-ECCAB382E255}.Release|x86.Build.0 = Release|Win32
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Debug|x64.ActiveCfg = Debug|x64
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Debug|x64.Build.0 = Debug|x64
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Debug|x86.Build.0 = Debug|Win32
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Release|x64.ActiveCfg = Release|x64
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Release|x64.Build.0 = Release|x64
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Release|x86.ActiveCfg = Release|Win32
+		{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

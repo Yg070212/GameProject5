@@ -1,46 +1,58 @@
 ﻿#include <iostream>
 
-#define SIZE 8
+#define SIZE 6
 
 using namespace std;
 
-void binary_search(int list[], int key)
+void QuickSort(int list[], int start, int end)
 {
-	int left = 0;
-	int right = SIZE - 1;
+	int pivot = start;
+	int left = start + 1;
+	int right = end;
 
 	while (left <= right)
 	{
-		int pivot = (left + right) / 2;
-
-		if (list[pivot] == key)
-		{
-			cout << "Key Found : " << list[pivot] << endl;
-
-			return;
-		}
-		else if (list[pivot] > key)
-		{
-			right = pivot - 1;
-		}
-		else
-		{
-			left = pivot + 1;
-		}
+		
 	}
 
-	cout << "Not Key Found" << endl;
+	while (left <= end && list[pivot] >= list[left])
+	{
+		left++;
+	}
+
+	while (right > start && list[pivot] <= list[right])
+	{
+		right--;
+	}
+
+	if (left > right)
+	{
+		std::swap(list[pivot], list[right]);
+	}
+	else
+	{
+		std::swap(list[left], list[right]);
+	}
 }
 
 int main()
 {
-#pragma region 이진 탐색
-	// 탐색 범위를 반으로 나누어 찾는 값을 포함하는 범위를
-	// 좁혀나가는 방식으로 동작하는 알고리즘입니다.
+#pragma region 퀵 정렬
+	// 기준점을 획득한 다음 기준점을 기준으로 배열을 나누고 한 쪽에는
+	// 기준점보다 작은 값들이 위치하게 하고 다른 한 쪽에는 기준점보다
+	// 큰 값들이 위치하도록 정렬합니다.
 
-	int list[] = { 5, 6, 11, 13, 27, 66, 66, 99 };
+	// 나누어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여
+	// 모든 배열이 기본 배열이 될 때까지 반복하면서 정렬하는 알고리즘입니다.
 
-	binary_search(list, 100);
+	int list[SIZE] = { 5, 4, 6, 2, 1, 3 };
+
+	QuickSort(list, 0, SIZE - 1);
+
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << list[i] << " ";
+	}
 
 #pragma endregion
 
