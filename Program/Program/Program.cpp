@@ -1,61 +1,48 @@
 ﻿#include <iostream>
 
-#define SIZE 6
+#define SIZE 100001
 
 using namespace std;
 
-void QuickSort(int list[], int start, int end)
+int Fibonacci(int n)
 {
-	int pivot = start;
-	int left = start + 1;
-	int right = end;
+    if (n <= 0)
+    {
+        return 0;
+    }
+    else if (n <= 2)
+    {
+        return 1;
+    }
 
-	while (left <= right)
-	{
-		
-	}
+    return Fibonacci(n - 1) + Fibonacci(n - 2);
 
-	while (left <= end && list[pivot] >= list[left])
-	{
-		left++;
-	}
-
-	while (right > start && list[pivot] <= list[right])
-	{
-		right--;
-	}
-
-	if (left > right)
-	{
-		std::swap(list[pivot], list[right]);
-	}
-	else
-	{
-		std::swap(list[left], list[right]);
-	}
 }
 
 int main()
 {
-#pragma region 퀵 정렬
-	// 기준점을 획득한 다음 기준점을 기준으로 배열을 나누고 한 쪽에는
-	// 기준점보다 작은 값들이 위치하게 하고 다른 한 쪽에는 기준점보다
-	// 큰 값들이 위치하도록 정렬합니다.
+#pragma region 동적 계획법
+    // 특정 범위까지의 값을 구하기 위해 그것과
+    // 다른 범위까지의 값을 이용해서 효율적으로 값을
+    // 구하는 알고리즘입니다.
 
-	// 나누어진 하위 배열에 대해 재귀적으로 퀵 정렬을 호출하여
-	// 모든 배열이 기본 배열이 될 때까지 반복하면서 정렬하는 알고리즘입니다.
+    // (Overlapping Subproblems) 겹치는 부분 문제
+    // 동일한 작은 문제들이 반복하여 나타나는 경우를 의미합니다.
 
-	int list[SIZE] = { 5, 4, 6, 2, 1, 3 };
+    // (Optimal Substructure) 최적 부분 구조
+    // 부분 문제의 최적 결과 값을 사용하여 전체 문제의 최적
+    // 결과를 낼 수 있는 경우를 의미합니다.
 
-	QuickSort(list, 0, SIZE - 1);
+    // 메모이제이션
+    // 프로그램이 동일한 계산을 반복해야 할 때, 이전에
+    // 계산한 값을 메모리에 저장함으로써 동일한 계산을
+    // 반복 수행하는 작업을 제거하여 프로그램의 실행 속도를
+    // 향상시키는 방법입니다.
 
-	for (int i = 0; i < SIZE; i++)
-	{
-		cout << list[i] << " ";
-	}
+    cout << Fibonacci(44) << endl;
 
 #pragma endregion
 
 
-	return 0;
+    return 0;
 }

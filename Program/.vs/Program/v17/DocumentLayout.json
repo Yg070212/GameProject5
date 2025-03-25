@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{F95FFF46-88C2-426A-A64F-E2F222F4CD6F}|Program\\Program.vcxproj|solutionrelative:Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{789560AC-F26F-484E-8B7E-892DA1AC1A9E}|Class12th (Merge Sort)\\Class12th (Merge Sort).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class12th (Merge Sort)\\Class12th (Merge Sort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{789560AC-F26F-484E-8B7E-892DA1AC1A9E}|Class12th (Merge Sort)\\Class12th (Merge Sort).vcxproj|solutionrelative:Class12th (Merge Sort)\\Class12th (Merge Sort).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13DB3B0-C487-464A-B746-39A4384B797E}|Class11th (Quick Sort)\\Class11th (Quick Sort).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class11th (Quick Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E13DB3B0-C487-464A-B746-39A4384B797E}|Class11th (Quick Sort)\\Class11th (Quick Sort).vcxproj|solutionrelative:Class11th (Quick Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}|Class10th (Binary Search)\\Class10th (Binary Search).vcxproj|C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class10th (Binary Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7C61FAD-EB8C-4BA8-A395-AE59584ED090}|Class10th (Binary Search)\\Class10th (Binary Search).vcxproj|solutionrelative:Class10th (Binary Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -64,7 +72,7 @@
               "RelativeDocumentMoniker": "Program\\Program.cpp",
               "ToolTip": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Program\\Program.cpp",
               "RelativeToolTip": "Program\\Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-13T09:11:45.048Z",
               "IsPinned": true,
@@ -73,6 +81,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Class12th (Merge Sort).cpp",
+              "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class12th (Merge Sort)\\Class12th (Merge Sort).cpp",
+              "RelativeDocumentMoniker": "Class12th (Merge Sort)\\Class12th (Merge Sort).cpp",
+              "ToolTip": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class12th (Merge Sort)\\Class12th (Merge Sort).cpp",
+              "RelativeToolTip": "Class12th (Merge Sort)\\Class12th (Merge Sort).cpp",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-25T09:13:28.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class11th (Quick Sort)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class11th (Quick Sort)\\Source.cpp",
+              "ToolTip": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class11th (Quick Sort)\\Source.cpp",
+              "RelativeToolTip": "Class11th (Quick Sort)\\Source.cpp",
+              "ViewState": "AgIAADEAAAAAAAAAAAAswE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-24T09:08:49.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class10th (Binary Search)\\Source.cpp",
               "RelativeDocumentMoniker": "Class10th (Binary Search)\\Source.cpp",
@@ -80,12 +114,11 @@
               "RelativeToolTip": "Class10th (Binary Search)\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-21T09:03:40.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T09:03:40.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class9th (Divide amd Conquer)\\Source.cpp",
               "RelativeDocumentMoniker": "Class9th (Divide amd Conquer)\\Source.cpp",
@@ -97,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class8th (Count Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class8th (Count Sort)\\Source.cpp",
@@ -109,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class7th (Sieve of Eratosthenes)\\Source.cpp",
               "RelativeDocumentMoniker": "Class7th (Sieve of Eratosthenes)\\Source.cpp",
@@ -121,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class6th (Euclidean)\\Source.cpp",
               "RelativeDocumentMoniker": "Class6th (Euclidean)\\Source.cpp",
@@ -133,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class5th (Insert Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class5th (Insert Sort)\\Source.cpp",
@@ -145,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class4th (Select Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class4th (Select Sort)\\Source.cpp",
@@ -157,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class3th (Bubble Sort)\\Source.cpp",
               "RelativeDocumentMoniker": "Class3th (Bubble Sort)\\Source.cpp",
@@ -169,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class2th (Brute Force)\\Source.cpp",
               "RelativeDocumentMoniker": "Class2th (Brute Force)\\Source.cpp",
@@ -181,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\\uC591\uD604\uADDC\\Desktop\\\uAC9C\uD504\\Github\\GameProject5\\Program\\Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
               "RelativeDocumentMoniker": "Class1th (Time Complexity \u0026 Space Complexity)\\Source.cpp",
