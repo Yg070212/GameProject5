@@ -1,103 +1,19 @@
 ﻿#include <iostream>
-#include <vector>
-#include <algorithm>
-
-#define SIZE 8
 
 using namespace std;
 
-class Kruskal
-{
-private:
-    class Edge
-    {
-    private:
-        int vertexX;
-        int vertexY;
-        int weight;
-    public:
-        Edge(int vertexX, int vertexY, int weight)
-        {
-            this->vertexX = vertexX;
-            this->vertexY = vertexY;
-            this->weight = weight;
-        }
-
-        const int & VertexX() { return vertexX; }
-        const int & VertexY() { return vertexY; }
-        const int & Weight() { return weight; }
-
-        const bool& operator < (const Edge& edge)
-        {
-            return weight < edge.weight;
-        }
-    };
-
-    int cost;
-    int parent[SIZE];
-
-    vector<Edge> nodeList;
-
-public:
-    Kruskal()
-    {
-        cost = 0;
-
-        for (int i = 0; i < SIZE; i++)
-        {
-            parent[i] = i;
-        }
-    }
-
-    void insert(int vertexX, int vertexY, int weight)
-    {
-        Edge edge(vertexX, vertexY, weight);
-
-        nodeList.push_back(edge);
-    }
-
-    void calculate()
-    {
-        sort(nodeList.begin(), nodeList.end());
-        
-        for (int i = 0; i < nodeList.size(); i++)
-        {
-            cout << "vertexX : " << nodeList[i].VertexX() << endl;
-            cout << "vertexY : " << nodeList[i].VertexY() << endl;
-            cout << "weight : " << nodeList[i].Weight() << endl;
-
-            cout << endl;
-        }
-    }
-};
-
 int main()
 {
-#pragma region 최소 신장 트리
-    // 그래프의 모든 정점을 포함하면서 사이클이 존재하지 않는
-    // 부분 그래프로, 그래프의 모든 정점을 최소 비용으로 연결하는 트리입니다.
+#pragma region 퇴각 검색
+    // 해를 찾아가는 도중에 지금 경로가 해가 될 것 같지 않으면,
+    // 더 이상 깊이 들어가지 않고, 이전 단계로 다시 들어가는 알고리즘입니다.
 
-    // 그래프의 정점의 수가 n개일 때, 간선의 수는 n-1개 입니다.
+    // 퇴각 검색의 유망성 판단
+    // 해가 될 만한지 판단한 후에 유망하지 않다고 결정되면,
+    // 그 노드의 이전 노드로 돌아가 다음 자식 노드로 이동합니다.
 
-    Kruskal kruskal;
-
-    kruskal.insert(1, 7, 10);
-    kruskal.insert(4, 7, 14);
-
-    kruskal.insert(1, 4, 30);
-    kruskal.insert(2, 4, 25);
-
-    kruskal.insert(1, 2, 64);
-    kruskal.insert(1, 5, 19);
-
-    kruskal.insert(5, 7, 23);
-    kruskal.insert(2, 5, 61);
-
-    kruskal.insert(5, 3, 22);
-    kruskal.insert(5, 6, 48);
-    kruskal.insert(3, 6, 36);
-
-    kruskal.calculate();
+    // 해가 될 만한 기능이 있으면 유망한다. (Promising)
+    // 유망하지 않은 노드에 가지 않는 것 (Pruning)
 
 #pragma endregion
 

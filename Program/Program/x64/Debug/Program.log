@@ -1,2 +1,7 @@
 ﻿  Program.cpp
+C:\Users\user\OneDrive\바탕 화면\Game Project\Github\GameProject5\Program\Program\Program.cpp(4,9): warning C4005: 'INFINITY': 매크로 재정의
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h(88,9):
+      'INFINITY'의 이전 정의를 참조하십시오.
+  
+C:\Users\user\OneDrive\바탕 화면\Game Project\Github\GameProject5\Program\Program\Program.cpp(49,1): warning C4172: 지역 변수 또는 임시 : index의 주소를 반환하는 중
   Program.vcxproj -> C:\Users\user\OneDrive\바탕 화면\Game Project\Github\GameProject5\Program\x64\Debug\Program.exe
